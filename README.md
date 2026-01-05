@@ -1,6 +1,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Atomic-orbital.py)
 
-# Atomic Orbitals Vizualiations
+# Atomic Orbitals Visualizations
 The visualization of atomic orbitals and orbital information is an important enough topic in chemistry and physics to warrant specific attention. __Contour plots and surface plots__ are two popular ways of visualizing a function of two variables, $f(x,y)$, are as a contour plot and as a "three dimensional" surface plots. This work will try various libraries such as `Matplotlib`, `NumPy`, and `SymPy` that creates these types of plots, used some atomic orbital wavefunctions as reference.
 
 ## Prior knowledge
