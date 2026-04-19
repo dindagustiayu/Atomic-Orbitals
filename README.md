@@ -122,11 +122,11 @@ R_nl(3, 1, 4.0, Z=1).evalf()
 We can convert $R_nl$ function to a function that can accept an array using the `lambdify()` method. 
 
 ## Prior knowledge
-- __Radial wavefunction__, $R_{n, l}(r)$
+- __Radial wavefunction__, $R_{n, \ l} (r)$
 
     The radial part of the wavefunction, $R_{n, l}(r)$ gives the radial variation of $\Psi$. $R_{n, l}(r)$ defines how the wavefunction depends on the distance of the electron from the nucleus (the radius).
 
-- __Probability density__,$R^{2}r^{2}$
+- __Probability density__, $R^{2} r^{2}$
 
     The electron probability density can be found by calculating $R^{2}$ where $R$ is the radial wavefunction, and the radial probability is $R^{2} r^{2}$ where $r$ is the distance from the nucleus. Just like in the particle-in-a-box model, the square of the wavefunction is proportional to the probability of finding a particle (electron) at some point in space. The square of the radial part of the wavefunction is called the radial distribution function $4\pi^{2}(R_{n, l}(r))^{2}$, and its describes the probability of locating the electron at some distance $r$ away from the nucleus.
 
